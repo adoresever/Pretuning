@@ -1,0 +1,12 @@
+openai
+httpx
+pillow
+datasets
+pydantic
+pydantic-ai
+tqdm
+python-dotenv
+gradio
+numpy
+pandas
+pyarrow
