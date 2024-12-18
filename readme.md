@@ -7,6 +7,11 @@
 
 A tool designed for creating pre-training datasets for language models, supporting one-click batch processing of both text and image datasets.
 
+### 📺 Preview
+
+![Text Dataset Processing](./text_preview.png)
+![Image Dataset Processing](./image_preview.png)
+
 ### 🚀 Features
 
 - 📝 Text Dataset Creation
@@ -85,6 +90,11 @@ Pretuning/
 ## 🌟 预训练数据集制作工具
 
 一个专为语言模型预训练设计的数据集制作工具，支持文本和图像数据集的一键式批量处理。
+
+### 📺 预览
+
+![文本数据集处理](./text_preview.png)
+![图像数据集处理](./image_preview.png)
 
 ### 🚀 功能特点
 
