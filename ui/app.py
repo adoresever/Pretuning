@@ -13,7 +13,7 @@ def create_ui():
                     api_base = gr.Textbox(
                         label="API Base URL",
                         placeholder="输入API基础URL",
-                        value="https://api.openai.com/v1",  # 默认值
+                        value="https://api.openai.com/v1",  
                         type="text"
                     )
                     api_key = gr.Textbox(
@@ -26,9 +26,7 @@ def create_ui():
                         value="gpt-4o-mini",  # 默认值
                         placeholder="例如: gpt-4-vision-preview"
                     )
-            
-
-            # value="https://generativelanguage.googleapis.com/v1beta/", value="gemini-exp-1121"
+        
 
             with gr.Row():
                 save_api = gr.Button("保存设置", variant="primary")
@@ -38,7 +36,7 @@ def create_ui():
         with gr.Tab("文本数据处理"):
             gr.Markdown("""
             ### 使用说明
-            1. 配置API设置（与图像处理共用同一个API）
+            1. 配置API设置（PydanticAI受限优先使用openai）
             2. 设置三个处理Agent的提示词
             3. 上传文本文件进行处理
             4. 检查生成的结果并保存数据集
