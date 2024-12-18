@@ -29,17 +29,23 @@ git clone https://github.com/adoresever/pretuning.git
 cd pretuning
 ```
 
-2. Install dependencies:
+2. Create and activate conda environment:
+```bash
+conda create -n pretuning python=3.10 -y
+conda activate pretuning
+```
+
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Start application:
+4. Start application:
 ```bash
 python main.py
 ```
 
-4. Access the web interface (typically http://localhost:7860)
+5. Access the web interface (typically http://localhost:7860)
 
 ### 📦 Project Structure
 ```
@@ -70,6 +76,7 @@ Pretuning/
 ### 🛠️ Requirements
 
 - Python 3.8+
+- Anaconda or Miniconda
 - Sufficient disk space for dataset storage
 
 ---
@@ -101,17 +108,23 @@ git clone https://github.com/adoresever/pretuning.git
 cd pretuning
 ```
 
-2. 安装依赖：
+2. 创建并激活 conda 虚拟环境：
+```bash
+conda create -n pretuning python=3.10 -y
+conda activate pretuning
+```
+
+3. 安装依赖：
 ```bash
 pip install -r requirements.txt
 ```
 
-3. 启动应用：
+4. 启动应用：
 ```bash
 python main.py
 ```
 
-4. 访问Web界面（通常是 http://localhost:7860）
+5. 访问Web界面（通常是 http://localhost:7860）
 
 ### 📦 项目结构
 ```
@@ -142,6 +155,7 @@ Pretuning/
 ### 🛠️ 环境要求
 
 - Python 3.8+
+- Anaconda 或 Miniconda
 - 足够的磁盘空间用于数据集存储
 
 ## 👥 作者
